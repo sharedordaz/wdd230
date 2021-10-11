@@ -1,0 +1,62 @@
+/*Fredoka One*/ @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); 
+/*Vollkorn*/ @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+:root{
+    --blue: #30C5FF; 
+    --black: #2A2D34;
+    --green: #5C946E; 
+    --moldgreen: #80C2AF; 
+    --aqua: #A0DDE6; 
+
+    background-image: url(wallpaper.jpg);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+}
+
+p, li{
+    font-family: 'Vollkorn', Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    background-color: white;
+    align-items: center;
+    padding: 2em;
+}
+
+/* TYPOGRAPHY.html */
+.Fredoka-One{
+    font-family: 'Fredoka One';
+}
+
+.Vollkorn{
+    font-family: 'Vollkorn';
+}
+
+/* COLOR-SHEME.html*/
+
+#test-blue{
+    background-color: var(--blue);
+    padding: 30px;
+}
+#test-black{
+    background-color: var(--black);
+    padding: 30px;
+}
+#test-green{
+    background-color: var(--green);
+    padding: 30px;
+}
+#test-moldgreen{
+    background-color: var(--moldgreen);
+    padding: 30px;
+}
+#test-aqua{
+    background-color: var(--aqua);
+    padding: 30px;
+}
