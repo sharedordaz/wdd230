@@ -8,7 +8,7 @@
     --moldgreen: #80C2AF; 
     --aqua: #A0DDE6; 
 
-    background-image: url(wallpaper.jpg);
+    background-image: url(../images/wallpaper.jpg);
 }
 
 h1, h2, h3, h4{
@@ -20,16 +20,30 @@ p, li{
 }
 
 
-body{
+.content{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 1%;
+    margin-bottom: 1%;
     background-color: white;
     align-items: center;
     padding: 2em;
 }
-
+.title{
+    background-color: var(--aqua);
+}
+nav{
+    background-color: var(--black);
+}
 nav ul{
     display: flex;
     flex-direction: row;
+}
+
+
+footer{
+    background-color: var(--black);
+}
+footer div{
+    display: inline-block
 }
