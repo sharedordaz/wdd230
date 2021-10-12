@@ -19,14 +19,46 @@ p, li{
     font-family: 'Vollkorn', Arial, Helvetica, sans-serif;
 }
 
+a{
+    color:var(--green)
+}
 
-body{
+
+.content{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 1%;
+    margin-bottom: 1%;
     background-color: white;
     align-items: center;
     padding: 2em;
+}
+.title{
+    background-color: var(--aqua);
+}
+nav{
+    background-color: var(--black);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 1%;
+}
+nav ul li:hover{
+    background-color: rgb(0, 0, 0);
+}
+nav ul li a{
+    color: var(--aqua);
+}
+footer{
+    background-color: var(--black);
+}
+footer div{
+    display: inline-block
 }
 
 /* TYPOGRAPHY.html */
